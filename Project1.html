@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <link rel="stylesheet" href="project1.css">
+  </head>  
+  
+      <body style="background-color:white;" >  
+        <h1 class="heading">JAYNICE NEWCELEBRITY</h1>
+
+        <ul class="ul">
+            <li class="li"><a class="active" href="Project1.html">Home</a> </li>
+            
+            <li class="li"><a  href="Music.html">Musics</a> </li>
+            <li class="li"><a  href="Ep.html">EP/Album</a> </li>
+            
+       
+            
+        </ul>
+        <br>
+      
+        <br>
+<div class="div">        
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="jaynice.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="jaynice2.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="jaynice3.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice4.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice5.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice6.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice7.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice8.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice9.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      
+      
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice12.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      
+
+      <div class="mySlides fade">
+        <div class="numbertext"> </div>
+        <img src="jaynice16.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice17.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice18.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice19.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice20.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice22.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="jaynice24.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+     
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>  
+  
+ 
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+<DIV class="row">
+    <div class="row"> 
+      <h2 style="text-align: center; color:#1b1a1a;">
+        JAYNICE
+      </h2>
+      <p style="text-align:center;">Blessed Adams known by his stage name JAYNICE NEWCELEBRITY, is a Nigerian Northern singer, musician, and rapper. He rose to stardom in Zaria Kaduna with the release of "YOUR LOVE" in 2022. He is from Kaduna State, there he grew up and had his Primary , Secondary, and Tertiary Education.</p>
+      <div style="text-align:center;">
+        <h3 id="rcorners1" ><strong>AGE: 20</strong></h3>
+      </div>
+    </div>
+  </DIV>
+
+  <fieldset style="border-radius: 10px;">
+    <img src="only.jpg" style= height="300" width="200">
+    <h2 style="color:RED ;"><strong>Only One- JAYNICE ft Zuz chappo </strong></h2>
+    <a style="text-decoration: none; color: black;" href="https://audiomack.com/newcelebrity/song/nonstop" download="Music" title="Click to Listen">Stream And Download NONSTOP MP3</a> 
+    <h2> <button class="download-btn"><a style="text-decoration: none;" href="joyner.mp3" download="jonny" src="joyner.mp3" target="_blank"> <span style="color: black; text-decoration: solid;" > Download mp3</span> </a> </button></h2>
+        
+    <br> 
+    <br>
+    <audio controls>
+      <source src="joyner.mp3">
+
+    </audio>
+  </fieldset>
+  <br>
+  <fieldset  style="border-radius: 10px;">
+    <img src="nonstop.jpg" style= height="300" width="200">
+    <h2 style="color:RED ;"><strong>Jaynice- NONSTOP </strong></h2>
+    <a style="text-decoration: none; color: black;" href="https://audiomack.com/newcelebrity/song/nonstop" title="Click to Listen">Stream And Download NONSTOP MP3</a>  
+    <h2> <button class="download-btn"><a style="text-decoration: none;" href="joyner.mp3" download="jonny" src="joyner.mp3" target="_blank"> <span style="color: black; text-decoration: solid;" > Download mp3</span> </a> </button></h2>
+        
+    <br> 
+    <br>
+    <audio controls>
+      <source src="joyner.mp3">
+    </audio>
+  </fieldset>
+ 
+ 
+  <br>
+  <fieldset  style="border-radius: 10px;">
+    <img src="Your Love.jpg" style= height="300" width="200">
+    <h2 style="color:RED ;"><strong>Your Love - JAYNICE ft Iceboy</strong></h2>
+    <a style="text-decoration: none; color: black;" href="https://audiomack.com/newcelebrity/song/nonstop" title="Click to Listen">Stream And Download NONSTOP MP3</a> <br><br>
+    <h2> <button class="download-btn"><a style="text-decoration: none;" href="joyner.mp3" download="jonny" src="joyner.mp3" target="_blank"> <span style="color: black; text-decoration: solid;" > Download mp3</span> </a> </button></h2>
+<br><br>
+    <audio controls>
+      <source src="joyner.mp3">
+    </audio>       
+    <br> 
+
+
+    <br>
+      </fieldset>
+
+  <h2><strong>More of JAYNICE</strong></h2>
+  <UL  style="color: black;" type="">
+    <li> <a style="text-decoration: none; color: black; font-size: 13px;" href="Music.html"><b>YOUR LOVE <span style="font-size: 20px;">(Jaynice ft Iceboy)</span></b></a>    </li><br>
+    <BR>
+    <li><a style="text-decoration: none; color: black; font-size: 13px;" href="Music.html" ><b>FIVE STAR <span style="font-size: 20px;">(Jaynice ft Adekunle Gold)</span></b> </a> </li><br>
+    <BR>
+    <li><a style="text-decoration: none; color: black; font-size: 13px;" href="Music.html"><b> SPECTACULAR by <span style="font-size: 20px;">Jaynice</span></a></b>  </li>
+
+  </UL>
+  <br>
+    
+   
+  <fieldset style="border-radius: 20px; background-color: #070707; text-align: center; border-color: black;  ">
+
+    
+    <br>
+    <h2 style="text-align: center; color: white;">INFORMATION</h2>
+    <div style="text-align: center; color: white;">
+    <h3>Address</h2>
+    <p>Kaduna, Sabon Gari LGA, Palladan Zaria. </p>
+    <h3>Contact: </h2>
+      <p><butt  on  style="border-radius: 10px; padding:6px; background-color: #3d58ee; "  ><a style="text-decoration: none;" href="https://www.facebook.com/jonny.slim.33"><span style="color: white;" >Contact US On Facebook</span></a></button></p>
+      <p><button style="border-radius: 10px; padding:6px; background-color: #2cdf4a; " > <span style="color: white; text-decoration: none;" >Message Us On Whatsapp - <span style="color: black; text-decoration: solid; font-size: medium; " >09061739865</span> </span></button></p>
+      <p><button  style="border-radius: 10px; padding:6px; background-color: #797575; " ><a style="text-decoration: none;" href="https://instagram.com/jaynice_official?igshid=YmMyMTA2M2Y="  title="@jaynice_official" ><span style="color: white;" >Follow us on Instagram</span> </a>    </button></p>
+      <p><button style="border-radius: 8px; padding:5px; background-color: #2c2b2b; "><a style="text-decoration: none;" href="Project1.html"><span style="color:white;">Back to top</span>  </a></button></p>
+      <p style="text-align: right; color: white; text-decoration: wavy;">Designed by Tongnan</p>
+
+</fieldset>
+
+        
+  
+  </div>
+ 
+   
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
